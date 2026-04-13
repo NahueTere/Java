@@ -1,8 +1,9 @@
 import javax.swing.*;
+import java.awt.*;
 
-public class EjercicioCircunferencia extends JFrame {
+public class Ejercicio1_10 extends JFrame {
 
-    public EjercicioCircunferencia() {
+    public Ejercicio1_10() {
         setTitle("Ejercicio Circunferencia");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -40,6 +41,6 @@ public class EjercicioCircunferencia extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new EjercicioCircunferencia().setVisible(true));
+        SwingUtilities.invokeLater(() -> new Ejercicio1_10().setVisible(true));
     }
 }

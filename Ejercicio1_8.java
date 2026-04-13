@@ -1,8 +1,9 @@
 import javax.swing.*;
+import java.awt.*;
 
-public class EjercicioFrutero extends JFrame {
+public class Ejercicio1_8 extends JFrame {
 
-    public EjercicioFrutero() {
+    public Ejercicio1_8() {
         setTitle("Ejercicio Frutero");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -40,6 +41,6 @@ public class EjercicioFrutero extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new EjercicioFrutero().setVisible(true));
+        SwingUtilities.invokeLater(() -> new Ejercicio1_8().setVisible(true));
     }
 }
