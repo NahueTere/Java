@@ -1,9 +1,9 @@
 import java.util.Arrays;
 import javax.swing.*;
 
-public class Ejercicio2_7 extends JFrame {
+public class Ejercicio2_7Swing extends JFrame {
 
-    public Ejercicio2_7() {
+    public Ejercicio2_7Swing() {
         setTitle("Ejercicio 2.7");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -46,7 +46,7 @@ public class Ejercicio2_7 extends JFrame {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            Ejercicio2_7 ejercicio = new Ejercicio2_7();
+            Ejercicio2_7Swing ejercicio = new Ejercicio2_7Swing();
             ejercicio.setVisible(true);
         });
     }
